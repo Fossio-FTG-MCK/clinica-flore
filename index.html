@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposta Comercial - Clínica Florê</title>
+  <style>
+    :root {
+      --verde-principal: #3B8B7A;
+      --verde-claro: #E5F7F3;
+      --cinza-fundo: #F9FAFB;
+      --cinza-texto: #444;
+      --branco: #ffffff;
+      --cinza-header-footer: #f3f4f6;
+    }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: var(--cinza-texto);
+      background-color: var(--cinza-fundo);
+      line-height: 1.6;
+    }
+
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: var(--cinza-header-footer);
+      text-align: center;
+      border-bottom: 2px solid var(--verde-principal);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      color: var(--verde-principal);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+
+    h2 {
+      color: var(--verde-principal);
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #1f2937;
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: var(--branco);
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 24px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .preco {
+      font-weight: bold;
+      color: var(--verde-principal);
+      font-size: 1.2rem;
+    }
+
+    .original {
+      text-decoration: line-through;
+      color: #999;
+      margin-right: 10px;
+    }
+
+    .destaque {
+      background: var(--verde-claro);
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+
+    .etapas span {
+      display: block;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      border-left: 3px solid var(--verde-principal);
+    }
+
+    footer {
+      background: var(--cinza-header-footer);
+      text-align: center;
+      font-size: 0.9em;
+      border-top: 2px solid var(--verde-principal);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proposta Comercial</h1>
+    <p><strong>Clínica Florê</strong> | Marcelo Fruck<br>
+    Consultor de Tecnologia e Marketing Digital<br>
+    WhatsApp: +55 51 9305-3612<br>
+    Instagram: @fossio</p>
+  </header>
+
+  <section>
+    <h2>A Solução: Nosso Plano de 3 Pilares</h2>
+    <p>Uma abordagem integrada para garantir resultados em todas as frentes.</p>
+    <div class="card">
+      <h3>1. Tráfego Pago de Performance</h3>
+      <p>Campanhas no Instagram e Facebook para gerar conversas qualificadas no WhatsApp e atrair novas clientes de forma imediata.</p>
+      <h3>2. SEO Local e Visibilidade</h3>
+      <p>Posicionar a clínica no Google Maps para capturar a demanda de clientes que já estão procurando por seus serviços.</p>
+      <h3>3. Otimização e Tecnologia</h3>
+      <p>Preparar a base digital da clínica para automações, melhorias de processo e escala futura.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Planos Disponíveis</h2>
+
+    <div class="card">
+      <h3>Pacote 1 – Apenas Tráfego</h3>
+      <p>Você cuida dos criativos. Eu cuido da estrutura, veiculação e otimização dos anúncios.</p>
+      <p><span class="original">R$ 350,00</span><span class="preco">R$ 300,00</span> <strong>(condição especial)</strong></p>
+      <div class="destaque">Investimento sugerido em anúncios: R$ 300,00/mês</div>
+    </div>
+
+    <div class="card">
+      <h3>Pacote 2 – Tráfego + Criativos</h3>
+      <p>Eu cuido de tudo: campanha + artes + textos persuasivos.</p>
+      <p><span class="original">R$ 550,00</span><span class="preco">R$ 500,00</span> <strong>(condição especial)</strong></p>
+      <div class="destaque">Investimento sugerido em anúncios: R$ 300,00/mês</div>
+    </div>
+
+    <div class="card">
+      <h3>Pacote 3 – Apenas Criativos</h3>
+      <p>Você roda as campanhas. Eu entrego os materiais prontos para anúncio.</p>
+      <p><span class="original">R$ 250,00</span><span class="preco">R$ 200,00</span> <strong>(condição especial)</strong></p>
+    </div>
+
+    <div class="card">
+      <h3>Serviço Opcional: Revitalização de Site com Foco em Conversão</h3>
+      <p>Uma reestruturação completa do site, focada em transformar visitantes em agendamentos e preparando a base técnica para futuras funcionalidades.</p>
+      <p><strong>Investimento Único: R$ 250,00</strong></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Próximos Passos</h2>
+    <div class="etapas">
+      <span>1️⃣ Aprovação – Escolha do pacote ideal</span>
+      <span>2️⃣ Kick-off – Reunião de alinhamento</span>
+      <span>3️⃣ Acessos – Concessão dos acessos</span>
+      <span>4️⃣ Lançamento – Início das campanhas</span>
+    </div>
+    <p><strong>Pronta para começar?</strong><br>
+    Estou animado para aplicar minha expertise em marketing e desenvolvimento para ajudar a Clínica Florê a atingir todo o seu potencial.</p>
+  </section>
+
+  <footer>
+    <p>Marcelo Fruck - Consultor de Tecnologia e Marketing Digital<br>
+    WhatsApp: +55 51 9305-3612 | Instagram: @fossio</p>
+  </footer>
+</body>
+</html>
